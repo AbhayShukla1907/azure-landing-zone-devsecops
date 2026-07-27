@@ -1,0 +1,48 @@
+[
+ {
+  "RuleID": "terraform-password",
+  "Description": "Terraform password detection",
+  "StartLine": 98,
+  "EndLine": 98,
+  "StartColumn": 8,
+  "EndColumn": 41,
+  "Match": "admin_password = \"frontend@12345!\"",
+  "Secret": "admin_password",
+  "File": "environment/pre_prod/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "terraform"
+  ],
+  "Fingerprint": "environment/pre_prod/terraform.tfvars:terraform-password:98"
+ },
+ {
+  "RuleID": "terraform-password",
+  "Description": "Terraform password detection",
+  "StartLine": 128,
+  "EndLine": 128,
+  "StartColumn": 8,
+  "EndColumn": 40,
+  "Match": "admin_password = \"backend@12345!\"",
+  "Secret": "admin_password",
+  "File": "environment/pre_prod/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "terraform"
+  ],
+  "Fingerprint": "environment/pre_prod/terraform.tfvars:terraform-password:128"
+ }
+]
