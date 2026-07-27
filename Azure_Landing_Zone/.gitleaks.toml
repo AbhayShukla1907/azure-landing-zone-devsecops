@@ -1,7 +1,0 @@
-title = "Terraform Secrets"
-
-[[rules]]
-id = "terraform-password"
-description = "Terraform password detection"
-regex = '''(?i)(password|passwd|admin_password|client_secret|secret)\s*=\s*["'][^"']+["']'''
-tags = ["password", "terraform"]
