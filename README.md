@@ -92,11 +92,12 @@ azure-landing-zone-devsecops
 │   └── security/
 │
 ├── environments/
-│   └── dev/├── main.tf
-│           ├── variables.tf
-│           ├── outputs.tf
-│           ├── providers.tf
-│           ├── terraform.tfvars.example
+│   └── dev/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── providers.tf
+│       ├── terraform.tfvars.example
 │
 │
 ├── .gitignore
