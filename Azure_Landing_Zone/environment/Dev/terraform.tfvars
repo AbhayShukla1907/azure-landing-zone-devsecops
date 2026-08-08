@@ -8,6 +8,11 @@ RGs = {
     rg_name  = "Dev_RG2"
     location = "centralindia"
   }
+
+  RG3 = {
+    rg_name  = "Dev_RG3"
+    location = "centralindia"
+  }
 }
 
 
